@@ -91,6 +91,8 @@ const sparkline = require('node-sparkline');
     - `stroke` **<String\>** The stroke color. An hexadecimal value or one of these [generic names](lib/helpers/color.js). *Default*: `#57bd0f`
     - `strokeWidth` **<Number\>** The stroke width in pixels. *Min*: `0` *Default*: `1.25`
     - `strokeOpacity` **<Number\>** The stroke opacity. *Min*: `0` *Max*: `1` *Default*: `1`
+    - `minValue` **<Number\>** The graph minimum value. *Default*: `undefined`
+    - `maxValue` **<Number\>** The graph maximum value. *Default*: `undefined`
 
   - Returns: **<String\>** The SVG tags of the generated SVG image
   - Throws: **<InputError\>**

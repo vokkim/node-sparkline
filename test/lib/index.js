@@ -64,6 +64,8 @@ describe('#lib index', function() {
       stroke: 'blue',
       strokeWidth: 2,
       strokeOpacity: 0.5,
+      minValue: 0,
+      maxValue: 150
     };
 
     const svg = sparkline(options);
